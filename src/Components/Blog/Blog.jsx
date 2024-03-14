@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
-import profile from "../../assets/profile.png";
-// import { FaBeer } from "react-icons/fa";
-const Blog = ({ blog }) => {
-  const { title, cover, author_name, author_image, reading_time, professior } =
+import { FaBookmark } from "react-icons/fa";
+
+const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
+  const { title, cover, author_name, author_image, reading_time, hashtags } =
     blog;
   return (
     <div>
@@ -15,17 +15,35 @@ const Blog = ({ blog }) => {
             <div className="flex gap-2">
               <img className="w-16 rounded-full" src={author_image} alt="" />
               <div>
-                <h2>{author_name}</h2>
+                <h2 className="font-medium">{author_name}</h2>
                 <h2>12 feb 2021</h2>
               </div>
             </div>
-            <div>
+            <div className="flex gap-2 items-center">
               <h3>{reading_time} min</h3>
+              <button
+                onClick={() => handleAddToBookmark(blog)}
+                className="text-2xl text-amber-700"
+              >
+                <FaBookmark></FaBookmark>
+              </button>
             </div>
           </div>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+          <p className="py-1 text-2xl font-medium">{title}</p>
+          <p className="pb-1 space-x-2">
+            {hashtags.map((hash, idx) => (
+              <span key={idx}>
+                <a>#{hash}</a>
+              </span>
+            ))}
+          </p>
+          <div className="card-actions">
+            <button
+              onClick={() => handleReadingTime(reading_time)}
+              className="px-3 py-2 bg-amber-500 rounded-lg"
+            >
+              Marks Read
+            </button>
           </div>
         </div>
       </div>
@@ -35,5 +53,7 @@ const Blog = ({ blog }) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleAddToBookmark: PropTypes.func.isRequired,
+  handleReadingTime: PropTypes.func.isRequired,
 };
 export default Blog;
