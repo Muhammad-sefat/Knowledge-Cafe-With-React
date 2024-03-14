@@ -1,0 +1,62 @@
+[
+  {
+    "id": 123456,
+    "cover": "https://example.com/cover1.jpg",
+    "author_image": "https://example.com/author1.jpg",
+    "author_name": "Jane Doe",
+    "profession": "Freelance Writer",
+    "reading_time": 10,
+    "title": "The Art of Storytelling",
+    "hashtags": ["writing_tips", "creative_writing", "storytelling"]
+  },
+  {
+    "id": 789012,
+    "cover": "https://example.com/cover2.jpg",
+    "author_image": "https://example.com/author2.jpg",
+    "author_name": "John Smith",
+    "profession": "Graphic Designer",
+    "reading_time": 12,
+    "title": "Mastering Typography",
+    "hashtags": ["graphic_design", "typography", "art"]
+  },
+  {
+    "id": 345678,
+    "cover": "https://example.com/cover3.jpg",
+    "author_image": "https://example.com/author3.jpg",
+    "author_name": "Alex Johnson",
+    "profession": "Software Engineer",
+    "reading_time": 15,
+    "title": "Understanding Algorithms",
+    "hashtags": ["algorithms", "programming", "tech"]
+  },
+  {
+    "id": 901234,
+    "cover": "https://example.com/cover4.jpg",
+    "author_image": "https://example.com/author4.jpg",
+    "author_name": "Emily Brown",
+    "profession": "Nutritionist",
+    "reading_time": 8,
+    "title": "The Science of Healthy Eating",
+    "hashtags": ["nutrition", "healthy_living", "food_science"]
+  },
+  {
+    "id": 567890,
+    "cover": "https://example.com/cover5.jpg",
+    "author_image": "https://example.com/author5.jpg",
+    "author_name": "Michael Lee",
+    "profession": "Photographer",
+    "reading_time": 7,
+    "title": "Capturing Moments: Photography Tips",
+    "hashtags": ["photography", "tips", "composition"]
+  },
+  {
+    "id": 234567,
+    "cover": "https://example.com/cover6.jpg",
+    "author_image": "https://example.com/author6.jpg",
+    "author_name": "Sarah Johnson",
+    "profession": "Marketing Manager",
+    "reading_time": 9,
+    "title": "Building Your Brand Online",
+    "hashtags": ["marketing", "brand_building", "digital_strategy"]
+  }
+]
