@@ -1,8 +1,8 @@
 [
   {
     "id": 123456,
-    "cover": "https://example.com/cover1.jpg",
-    "author_image": "https://example.com/author1.jpg",
+    "cover": "https://i.ibb.co/Lr4M7Fw/cover-01.jpg",
+    "author_image": "https://i.ibb.co/5xrbWbC/profile-01.jpg",
     "author_name": "Jane Doe",
     "profession": "Freelance Writer",
     "reading_time": 10,
@@ -11,8 +11,8 @@
   },
   {
     "id": 789012,
-    "cover": "https://example.com/cover2.jpg",
-    "author_image": "https://example.com/author2.jpg",
+    "cover": "https://i.ibb.co/gPcSWnm/cover-02.jpg",
+    "author_image": "https://i.ibb.co/mB5dtht/profile-02.jpg",
     "author_name": "John Smith",
     "profession": "Graphic Designer",
     "reading_time": 12,
@@ -21,8 +21,8 @@
   },
   {
     "id": 345678,
-    "cover": "https://example.com/cover3.jpg",
-    "author_image": "https://example.com/author3.jpg",
+    "cover": "https://i.ibb.co/QbYCmNz/cover-03.jpg",
+    "author_image": "https://i.ibb.co/cJxHH62/profile-03.jpg",
     "author_name": "Alex Johnson",
     "profession": "Software Engineer",
     "reading_time": 15,
@@ -31,8 +31,8 @@
   },
   {
     "id": 901234,
-    "cover": "https://example.com/cover4.jpg",
-    "author_image": "https://example.com/author4.jpg",
+    "cover": "https://i.ibb.co/WKHN12Q/cover-04.jpg",
+    "author_image": "https://i.ibb.co/fYMJv95/profile-04.png",
     "author_name": "Emily Brown",
     "profession": "Nutritionist",
     "reading_time": 8,
@@ -41,7 +41,7 @@
   },
   {
     "id": 567890,
-    "cover": "https://example.com/cover5.jpg",
+    "cover": "https://i.ibb.co/yWm0Vq9/cover-05.jpg",
     "author_image": "https://example.com/author5.jpg",
     "author_name": "Michael Lee",
     "profession": "Photographer",
@@ -51,8 +51,8 @@
   },
   {
     "id": 234567,
-    "cover": "https://example.com/cover6.jpg",
-    "author_image": "https://example.com/author6.jpg",
+    "cover": "https://i.ibb.co/tCkm5Qz/cover-06.jpg",
+    "author_image": "https://i.ibb.co/1nDfM0V/profile-06.png",
     "author_name": "Sarah Johnson",
     "profession": "Marketing Manager",
     "reading_time": 9,
