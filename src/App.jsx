@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="p-5 md:px-10 mx-auto">
         <Header></Header>
-        <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row items-center gap-5 justify-between pt-5">
           <Blogs></Blogs>
           <Bookmarks></Bookmarks>
         </div>
